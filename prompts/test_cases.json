@@ -1,0 +1,20 @@
+[
+  {
+    "input": "Ada Obi is a 300-level Computer Engineering student at the University of Uyo, applying for a Data Analyst internship starting 2 February 2027.",
+    "expected": {
+      "name": "Ada Obi",
+      "university": "University of Uyo",
+      "role": "Data Analyst internship",
+      "start_date": "2027-02-02"
+    }
+  },
+  {
+    "input": "Tunde is applying for a data internship.",
+    "expected": {
+      "name": "Tunde",
+      "university": null,
+      "role": "data internship",
+      "start_date": null
+    }
+  }
+]
