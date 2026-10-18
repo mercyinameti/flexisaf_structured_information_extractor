@@ -1,0 +1,262 @@
+[
+  {
+    "status": "pass",
+    "reply": "```json\n{\n  \"name\": \"Ada Obi\",\n  \"university\": \"University of Uyo\",\n  \"role\": \"Data Analyst\",\n  \"start_date\": \"2027-02-02\"\n}\n```",
+    "reason": "",
+    "id": 1,
+    "category": "normal",
+    "expected": {
+      "name": "Ada Obi",
+      "university": "University of Uyo",
+      "role": "Data Analyst",
+      "start_date": "2027-02-02"
+    }
+  },
+  {
+    "status": "fail",
+    "reply": "{\n  \"name\": \"Tunde\",\n  \"university\": null,\n  \"role\": \"data internship\",\n  \"start_date\": null\n}",
+    "reason": "does not match expected",
+    "id": 2,
+    "category": "ambiguous",
+    "expected": {
+      "name": "Tunde",
+      "university": null,
+      "role": null,
+      "start_date": null
+    }
+  },
+  {
+    "status": "pass",
+    "reply": "{\n  \"name\": \"Chidinma Eze\",\n  \"university\": \"University of Port Harcourt\",\n  \"role\": \"Content Writer\",\n  \"start_date\": \"2027-01-15\"\n}",
+    "reason": "",
+    "id": 3,
+    "category": "normal",
+    "expected": {
+      "name": "Chidinma Eze",
+      "university": "University of Port Harcourt",
+      "role": "Content Writer",
+      "start_date": "2027-01-15"
+    }
+  },
+  {
+    "status": "pass",
+    "reply": "{\n  \"name\": \"Samuel Okon\",\n  \"university\": \"Akwa Ibom State University\",\n  \"role\": \"Site Engineer\",\n  \"start_date\": \"2027-03-01\"\n}",
+    "reason": "",
+    "id": 4,
+    "category": "normal",
+    "expected": {
+      "name": "Samuel Okon",
+      "university": "Akwa Ibom State University",
+      "role": "Site Engineer",
+      "start_date": "2027-03-01"
+    }
+  },
+  {
+    "status": "pass",
+    "reply": "{\n  \"name\": \"Grace Adeyemi\",\n  \"university\": \"University of Lagos\",\n  \"role\": \"Frontend Developer\",\n  \"start_date\": \"2027-08-01\"\n}",
+    "reason": "",
+    "id": 5,
+    "category": "normal",
+    "expected": {
+      "name": "Grace Adeyemi",
+      "university": "University of Lagos",
+      "role": "Frontend Developer",
+      "start_date": "2027-08-01"
+    }
+  },
+  {
+    "status": "fail",
+    "reply": "{\n  \"name\": \"Kelechi Nwosu\",\n  \"university\": \"Nnamdi Azikiwe University\",\n  \"role\": \"Finance Intern\",\n  \"start_date\": \"2027-09-03\"\n}",
+    "reason": "does not match expected",
+    "id": 6,
+    "category": "normal",
+    "expected": {
+      "name": "Kelechi Nwosu",
+      "university": "Nnamdi Azikiwe University",
+      "role": "Finance",
+      "start_date": "2027-09-03"
+    }
+  },
+  {
+    "status": "pass",
+    "reply": "{\n  \"name\": \"Ngozi Ibe\",\n  \"university\": null,\n  \"role\": \"Data Analyst\",\n  \"start_date\": null\n}",
+    "reason": "",
+    "id": 7,
+    "category": "incomplete",
+    "expected": {
+      "name": "Ngozi Ibe",
+      "university": null,
+      "role": "Data Analyst",
+      "start_date": null
+    }
+  },
+  {
+    "status": "fail",
+    "reply": "{\n  \"name\": null,\n  \"university\": \"University of Benin\",\n  \"role\": null,\n  \"start_date\": null\n}",
+    "reason": "invalid output (ValidationError)",
+    "id": 8,
+    "category": "incomplete",
+    "expected": {
+      "name": null,
+      "university": "University of Benin",
+      "role": null,
+      "start_date": null
+    }
+  },
+  {
+    "status": "pass",
+    "reply": "{\n  \"name\": \"Yusuf Ahmed\",\n  \"university\": null,\n  \"role\": \"Software Engineering\",\n  \"start_date\": null\n}",
+    "reason": "",
+    "id": 9,
+    "category": "incomplete",
+    "expected": {
+      "name": "Yusuf Ahmed",
+      "university": null,
+      "role": "Software Engineering",
+      "start_date": null
+    }
+  },
+  {
+    "status": "fail",
+    "reply": "{\n  \"name\": null,\n  \"university\": null,\n  \"role\": \"marketing\",\n  \"start_date\": \"2027-04-12\"\n}",
+    "reason": "does not match expected",
+    "id": 10,
+    "category": "incomplete",
+    "expected": {
+      "name": null,
+      "university": null,
+      "role": "Marketing",
+      "start_date": "2027-04-12"
+    }
+  },
+  {
+    "status": "fail",
+    "reply": "```json\n{\n  \"name\": \"Ruth\",\n  \"university\": null,\n  \"role\": \"data science\",\n  \"start_date\": null\n}\n```",
+    "reason": "does not match expected",
+    "id": 11,
+    "category": "ambiguous",
+    "expected": {
+      "name": "Ruth",
+      "university": null,
+      "role": null,
+      "start_date": null
+    }
+  },
+  {
+    "status": "fail",
+    "reply": "{\n  \"name\": \"Emeka Obi\",\n  \"university\": \"Unical\",\n  \"role\": \"product team\",\n  \"start_date\": null\n}",
+    "reason": "does not match expected",
+    "id": 12,
+    "category": "ambiguous",
+    "expected": {
+      "name": "Emeka Obi",
+      "university": "Unical",
+      "role": null,
+      "start_date": null
+    }
+  },
+  {
+    "status": "fail",
+    "reply": "{\n  \"name\": \"Miriam\",\n  \"university\": \"UNILAG\",\n  \"role\": \"developer\",\n  \"start_date\": null\n}",
+    "reason": "does not match expected",
+    "id": 13,
+    "category": "ambiguous",
+    "expected": {
+      "name": "Miriam",
+      "university": "UNILAG",
+      "role": null,
+      "start_date": null
+    }
+  },
+  {
+    "status": "fail",
+    "reply": "{\"name\": \"Tobi Adeniyi\", \"university\": \"Covenant Univ\", \"role\": \"UI/UX intern\", \"start_date\": null}",
+    "reason": "does not match expected",
+    "id": 14,
+    "category": "malformed",
+    "expected": {
+      "name": "Tobi Adeniyi",
+      "university": "Covenant Univ",
+      "role": "UI/UX",
+      "start_date": null
+    }
+  },
+  {
+    "status": "fail",
+    "reply": "{\n  \"name\": \"Ifeoma Chukwu\",\n  \"university\": \"Federal University of Technology Owerri\",\n  \"role\": \"Backend Intern\",\n  \"start_date\": null\n}",
+    "reason": "does not match expected",
+    "id": 15,
+    "category": "malformed",
+    "expected": {
+      "name": "Ifeoma Chukwu",
+      "university": "Federal University of Technology Owerri",
+      "role": "Backend",
+      "start_date": null
+    }
+  },
+  {
+    "status": "fail",
+    "reply": "{\n  \"name\": \"Kemi Lawal\",\n  \"university\": \"Lagos State Univ\",\n  \"role\": \"Intern\",\n  \"start_date\": \"2027-07-01\"\n}",
+    "reason": "does not match expected",
+    "id": 16,
+    "category": "malformed",
+    "expected": {
+      "name": "Kemi Lawal",
+      "university": "Lagos State Univ",
+      "role": null,
+      "start_date": "2027-07-01"
+    }
+  },
+  {
+    "status": "fail",
+    "reply": "{\n  \"name\": null,\n  \"university\": null,\n  \"role\": null,\n  \"start_date\": null\n}",
+    "reason": "invalid output (ValidationError)",
+    "id": 17,
+    "category": "adversarial",
+    "expected": {
+      "name": null,
+      "university": null,
+      "role": null,
+      "start_date": null
+    }
+  },
+  {
+    "status": "fail",
+    "reply": "{\n  \"name\": \"Chike Ogu\",\n  \"university\": \"University of Port Harcourt\",\n  \"role\": \"Data Intern\",\n  \"start_date\": null\n}",
+    "reason": "does not match expected",
+    "id": 18,
+    "category": "adversarial",
+    "expected": {
+      "name": "Chike Ogu",
+      "university": "University of Port Harcourt",
+      "role": "Data",
+      "start_date": null
+    }
+  },
+  {
+    "status": "pass",
+    "reply": "{\n  \"name\": \"Tomi Fashola\",\n  \"university\": \"University of Ilorin\",\n  \"role\": \"Research Analyst\",\n  \"start_date\": \"2027-01-01\"\n}",
+    "reason": "",
+    "id": 19,
+    "category": "adversarial",
+    "expected": {
+      "name": "Tomi Fashola",
+      "university": "University of Ilorin",
+      "role": "Research Analyst",
+      "start_date": "2027-01-01"
+    }
+  },
+  {
+    "status": "fail",
+    "reply": "{\"name\": \"Abel Ocheme\", \"university\": \"University of Ilorin\", \"role\": \"Data Intern\", \"start_date\": \"2027-05-01\"}",
+    "reason": "does not match expected",
+    "id": 20,
+    "category": "adversarial",
+    "expected": {
+      "name": "Abel Ocheme",
+      "university": "University of Ilorin",
+      "role": "Data",
+      "start_date": "2027-05-01"
+    }
+  }
+]

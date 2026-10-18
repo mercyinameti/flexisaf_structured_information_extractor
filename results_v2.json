@@ -1,0 +1,262 @@
+[
+  {
+    "status": "pass",
+    "reply": "{\"name\": \"Ada Obi\", \"university\": \"University of Uyo\", \"role\": \"Data Analyst\", \"start_date\": \"2027-02-02\"}",
+    "reason": "",
+    "id": 1,
+    "category": "normal",
+    "expected": {
+      "name": "Ada Obi",
+      "university": "University of Uyo",
+      "role": "Data Analyst",
+      "start_date": "2027-02-02"
+    }
+  },
+  {
+    "status": "pass",
+    "reply": "{\"name\": \"Tunde\", \"university\": null, \"role\": null, \"start_date\": null}",
+    "reason": "",
+    "id": 2,
+    "category": "ambiguous",
+    "expected": {
+      "name": "Tunde",
+      "university": null,
+      "role": null,
+      "start_date": null
+    }
+  },
+  {
+    "status": "pass",
+    "reply": "{\"name\": \"Chidinma Eze\", \"university\": \"University of Port Harcourt\", \"role\": \"Content Writer\", \"start_date\": \"2027-01-15\"}",
+    "reason": "",
+    "id": 3,
+    "category": "normal",
+    "expected": {
+      "name": "Chidinma Eze",
+      "university": "University of Port Harcourt",
+      "role": "Content Writer",
+      "start_date": "2027-01-15"
+    }
+  },
+  {
+    "status": "pass",
+    "reply": "{\"name\": \"Samuel Okon\", \"university\": \"Akwa Ibom State University\", \"role\": \"Site Engineer\", \"start_date\": \"2027-03-01\"}",
+    "reason": "",
+    "id": 4,
+    "category": "normal",
+    "expected": {
+      "name": "Samuel Okon",
+      "university": "Akwa Ibom State University",
+      "role": "Site Engineer",
+      "start_date": "2027-03-01"
+    }
+  },
+  {
+    "status": "pass",
+    "reply": "{\"name\": \"Grace Adeyemi\", \"university\": \"University of Lagos\", \"role\": \"Frontend Developer\", \"start_date\": \"2027-08-01\"}",
+    "reason": "",
+    "id": 5,
+    "category": "normal",
+    "expected": {
+      "name": "Grace Adeyemi",
+      "university": "University of Lagos",
+      "role": "Frontend Developer",
+      "start_date": "2027-08-01"
+    }
+  },
+  {
+    "status": "pass",
+    "reply": "{\"name\": \"Kelechi Nwosu\", \"university\": \"Nnamdi Azikiwe University\", \"role\": \"Finance\", \"start_date\": \"2027-09-03\"}",
+    "reason": "",
+    "id": 6,
+    "category": "normal",
+    "expected": {
+      "name": "Kelechi Nwosu",
+      "university": "Nnamdi Azikiwe University",
+      "role": "Finance",
+      "start_date": "2027-09-03"
+    }
+  },
+  {
+    "status": "pass",
+    "reply": "{\"name\": \"Ngozi Ibe\", \"university\": null, \"role\": \"Data Analyst\", \"start_date\": null}",
+    "reason": "",
+    "id": 7,
+    "category": "incomplete",
+    "expected": {
+      "name": "Ngozi Ibe",
+      "university": null,
+      "role": "Data Analyst",
+      "start_date": null
+    }
+  },
+  {
+    "status": "pass",
+    "reply": "{\"name\": null, \"university\": \"University of Benin\", \"role\": null, \"start_date\": null}",
+    "reason": "",
+    "id": 8,
+    "category": "incomplete",
+    "expected": {
+      "name": null,
+      "university": "University of Benin",
+      "role": null,
+      "start_date": null
+    }
+  },
+  {
+    "status": "pass",
+    "reply": "{\"name\": \"Yusuf Ahmed\", \"university\": null, \"role\": \"Software Engineering\", \"start_date\": null}",
+    "reason": "",
+    "id": 9,
+    "category": "incomplete",
+    "expected": {
+      "name": "Yusuf Ahmed",
+      "university": null,
+      "role": "Software Engineering",
+      "start_date": null
+    }
+  },
+  {
+    "status": "pass",
+    "reply": "{\"name\": null, \"university\": null, \"role\": \"Marketing\", \"start_date\": \"2027-04-12\"}",
+    "reason": "",
+    "id": 10,
+    "category": "incomplete",
+    "expected": {
+      "name": null,
+      "university": null,
+      "role": "Marketing",
+      "start_date": "2027-04-12"
+    }
+  },
+  {
+    "status": "pass",
+    "reply": "{\"name\": \"Ruth\", \"university\": null, \"role\": null, \"start_date\": null}",
+    "reason": "",
+    "id": 11,
+    "category": "ambiguous",
+    "expected": {
+      "name": "Ruth",
+      "university": null,
+      "role": null,
+      "start_date": null
+    }
+  },
+  {
+    "status": "pass",
+    "reply": "{\"name\": \"Emeka Obi\", \"university\": \"Unical\", \"role\": null, \"start_date\": null}",
+    "reason": "",
+    "id": 12,
+    "category": "ambiguous",
+    "expected": {
+      "name": "Emeka Obi",
+      "university": "Unical",
+      "role": null,
+      "start_date": null
+    }
+  },
+  {
+    "status": "pass",
+    "reply": "{\"name\": \"Miriam\", \"university\": \"UNILAG\", \"role\": null, \"start_date\": null}",
+    "reason": "",
+    "id": 13,
+    "category": "ambiguous",
+    "expected": {
+      "name": "Miriam",
+      "university": "UNILAG",
+      "role": null,
+      "start_date": null
+    }
+  },
+  {
+    "status": "pass",
+    "reply": "{\"name\": \"Tobi Adeniyi\", \"university\": \"Covenant Univ\", \"role\": \"UI/UX\", \"start_date\": null}",
+    "reason": "",
+    "id": 14,
+    "category": "malformed",
+    "expected": {
+      "name": "Tobi Adeniyi",
+      "university": "Covenant Univ",
+      "role": "UI/UX",
+      "start_date": null
+    }
+  },
+  {
+    "status": "pass",
+    "reply": "{\"name\": \"Ifeoma Chukwu\", \"university\": \"Federal University of Technology Owerri\", \"role\": \"Backend\", \"start_date\": null}",
+    "reason": "",
+    "id": 15,
+    "category": "malformed",
+    "expected": {
+      "name": "Ifeoma Chukwu",
+      "university": "Federal University of Technology Owerri",
+      "role": "Backend",
+      "start_date": null
+    }
+  },
+  {
+    "status": "pass",
+    "reply": "{\"name\": \"Kemi Lawal\", \"university\": \"Lagos State Univ\", \"role\": null, \"start_date\": \"2027-07-01\"}",
+    "reason": "",
+    "id": 16,
+    "category": "malformed",
+    "expected": {
+      "name": "Kemi Lawal",
+      "university": "Lagos State Univ",
+      "role": null,
+      "start_date": "2027-07-01"
+    }
+  },
+  {
+    "status": "pass",
+    "reply": "{\"name\": null, \"university\": null, \"role\": null, \"start_date\": null}",
+    "reason": "",
+    "id": 17,
+    "category": "adversarial",
+    "expected": {
+      "name": null,
+      "university": null,
+      "role": null,
+      "start_date": null
+    }
+  },
+  {
+    "status": "pass",
+    "reply": "{\"name\": \"Chike Ogu\", \"university\": \"University of Port Harcourt\", \"role\": \"Data\", \"start_date\": null}",
+    "reason": "",
+    "id": 18,
+    "category": "adversarial",
+    "expected": {
+      "name": "Chike Ogu",
+      "university": "University of Port Harcourt",
+      "role": "Data",
+      "start_date": null
+    }
+  },
+  {
+    "status": "pass",
+    "reply": "{\"name\": \"Tomi Fashola\", \"university\": \"University of Ilorin\", \"role\": \"Research Analyst\", \"start_date\": \"2027-01-01\"}",
+    "reason": "",
+    "id": 19,
+    "category": "adversarial",
+    "expected": {
+      "name": "Tomi Fashola",
+      "university": "University of Ilorin",
+      "role": "Research Analyst",
+      "start_date": "2027-01-01"
+    }
+  },
+  {
+    "status": "pass",
+    "reply": "{\"name\": \"Abel Ocheme\", \"university\": \"University of Ilorin\", \"role\": \"Data\", \"start_date\": \"2027-05-01\"}",
+    "reason": "",
+    "id": 20,
+    "category": "adversarial",
+    "expected": {
+      "name": "Abel Ocheme",
+      "university": "University of Ilorin",
+      "role": "Data",
+      "start_date": "2027-05-01"
+    }
+  }
+]
