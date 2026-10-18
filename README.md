@@ -19,6 +19,9 @@ Test data is fictional.
 - `FAILURE_ANALYSIS.md`: what failed in v1 and what v2 fixed.
 - `RISKS_AND_LIMITATIONS.md`: known risks and limits.
 
+## Schema
+`schema.json` defines four fields: `name`, `university`, `role`, and `start_date`. Each is free text or a date, so there are no enums. `start_date` must match YYYY-MM-DD when it is not null.
+
 ## Setup
 1. Install Python 3.10 or newer.
 2. Install the packages:
