@@ -8,6 +8,7 @@ Test data is fictional.
 - `extractor.py`: sends one application to the Gemini API and validates the reply.
 - `run_tests.py`: runs all 20 test cases, saves the replies, and prints a pass or fail for each case.
 - `check_connection.py`: sends one short message to confirm the API key and model work.
+- `validate.py`: checks every saved reply against schema.json without calling the API.
 - `prompts/v1_basic.txt`: first prompt version.
 - `prompts/v2_advanced.txt`: final prompt version.
 - `schema.json`: the JSON Schema the output must match.
